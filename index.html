@@ -2,8 +2,11 @@
 <html>
 <head>
 	<title>DATA KLOTER 56</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="lib/jquery.mobile-1.2.1/jquery.mobile-1.2.1.min.css" />
+		<script src="lib/jquery.mobile-1.2.1/jquery.js"></script>
+		<script src="lib/jquery.mobile-1.2.1/jquery.mobile-1.2.1.min.js"></script>
 </head>
-<script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript">
 dataJSON = {
 		"reg1_1" : [
@@ -540,16 +543,14 @@ dataJSON = {
 			alert("adas")
 		}
 		var valueOpROM = ""
-		$("#ROM").find('option').click(function(e){
+		$("#ROM").on('change', function(e){
 			var optionSelected = $("option:selected",this);
 			var reg = this.value+$("#REG").find('option:selected').val();
-			alert(reg);
 			dumToTable(reg);
 		});
-		$("#REG").find('option').click(function(e){
+		$("#REG").on('change', function(e){
 			var optionSelected = $("option:selected",this);
 			var reg = $("#ROM").find('option:selected').val()+this.value;
-			alert(reg);
 			dumToTable(reg);
 		});
 
@@ -557,7 +558,7 @@ dataJSON = {
 			var isiTable = ""
 			for(var i=0;i<obj.length;i++){
 				isiTable = isiTable+"<tr>"+
-				"<td>"+(i+1)+"</td>"+
+				"<th>"+(i+1)+"</th>"+
 				"<td>"+obj[i].nama+"</td>"+
 				"<td>"+obj[i].ds+"</td>"+
 				"<td>"+obj[i].kec+"</td>"+
@@ -665,30 +666,37 @@ dataJSON = {
 //console.log(dataJSON.reg1_1[2].nama)
 </script>
 <body>
-<div id="menu">
-	ROM : 
-	<select id="ROM" name="ROM">
-		<option value="reg1">1</option>
-		<option value="reg2">2</option>
-		<option value="reg3">3</option>
-		<option value="reg4">4</option>
-		<option value="reg5">5</option>
-		<option value="reg6">6</option>
-		<option value="reg7">7</option>
-		<option value="reg8">8</option>
-		<option value="reg9">9</option>
-		<option value="reg10">10</option>
-	</select>
-	REG : 
-	<select id="REG" name="REG">
-		<option value="_1">1</option>
-		<option value="_2">2</option>
-		<option value="_3">3</option>
-		<option value="_4">4</option>
-	</select>
+<div data-role="page">
+<div data-role="navbar" id="menu">
+	<ul>
+		<li> 
+			ROM :
+			<select id="ROM" name="ROM">
+				<option value="reg1">1</option>
+				<option value="reg2">2</option>
+				<option value="reg3">3</option>
+				<option value="reg4">4</option>
+				<option value="reg5">5</option>
+				<option value="reg6">6</option>
+				<option value="reg7">7</option>
+				<option value="reg8">8</option>
+				<option value="reg9">9</option>
+				<option value="reg10">10</option>
+			</select>
+		</li>
+		<li>
+			REG : 
+			<select id="REG" name="REG">
+				<option value="_1">1</option>
+				<option value="_2">2</option>
+				<option value="_3">3</option>
+				<option value="_4">4</option>
+			</select>	
+		</li>
+	</ul>	
 </div>
-<div id="data">
-	<table id="dKloter" border="1">
+<div data-role="content" align="center">	
+	<table data-role="table" id="dKloter" data-mode="reflow" class="ui-responsive table-stroke">
 		<thead>
 			<th>NO</th>
 			<th>NAMA</th>
@@ -699,7 +707,8 @@ dataJSON = {
 		</thead>
 		<tbody id="dumpData">
 		</tbody>
-	</table>
+	</table>	
+</div>
 </div>
 </body>
 </html>
