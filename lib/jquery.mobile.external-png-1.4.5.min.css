@@ -1,0 +1,2321 @@
+dubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-core-dbg
+Priority: extra
+Section: x11
+Installed-Size: 6533
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xorg-server
+Version: 2:1.18.3-1ubuntu2
+Depends: xserver-xorg-core (= 2:1.18.3-1ubuntu2)
+Filename: pool/main/x/xorg-server/xserver-xorg-core-dbg_1.18.3-1ubuntu2_i386.deb
+Size: 5924922
+MD5sum: f90f8797c98d6d8746fa0cec721390a1
+SHA1: 8d484b2831b344b1ef821c57a22b4fdbdd458c2c
+SHA256: d341cc215c7ad4f8f57540e1fc69a7df1de77a0317fdfa92e99e8e7c4da2dd46
+Description: Xorg - the X.Org X server (debugging symbols)
+Homepage: http://www.x.org/
+Build-Ids: 0417d34295f0859275f1003c2f4d4a815b1eab69 06851321622449cbd96e91f7d20fed78a9a7d49d 26c8d0f97ea05a6ba48c5771461e40db322020cb 4fbe2ad7013f3398d6d1d8e82259ccfe10a6aa2a 589f8c099c5c7ce96ad2e970b1d452c0c2373dc0 5b1b9a5fd0f8cda8ba9654f4f56fdc30774384d5 681e4725249078e37623007983539e9925604d39 8987cf1c288f9289cd6f0980ed9b2d66867fcf1e 8ce4086f7116499b52730d94665c7db45efd6fe8 b4da286155915996857fdd5867645dfb27e9563b bdc62ea6c43d864eab8980fd3c97b87c82e39638 de9d88e518d7febf47d86f3367e911bb2535a09c fae18fdf08d9e4cafac0e8baa8085c905dd02561 fc6f94e31e276b9aa0f619c82a692ef8c2af1acf fd024b842268d05aaeadb35a94816a39ec21b9ac
+Description-md5: 748963cc445faabee033c53886a8a0cf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-core-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-core-lts-utopic_10_i386.deb
+Size: 1948
+MD5sum: c03f3b542208055c7dcb7177373d9edf
+SHA1: 9312ab8a19b218bed74a72be20b4512dca9c3522
+SHA256: be4335885e19f16bd6d6d5f89d1669f13ded291d88c1928d889bbb9e0d01617e
+Description: Transitional package for xserver-xorg-core-lts-utopic
+Description-md5: 122ff8d4d28fdac7586caf861e992421
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-core-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-core-lts-utopic-dbg_10_i386.deb
+Size: 1954
+MD5sum: 495090389423a3f7706392365e3b00fa
+SHA1: 70d9f55d7a2e70c849512533841c9cabbcbd8b6f
+SHA256: 390930247902cc362256158017d811a9b59ef214126fe181935452090ad6861e
+Description: Transitional package for xserver-xorg-core-lts-utopic-dbg
+Description-md5: a782ca6e8250c620b71662eda89b6e8d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-core-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-core-lts-vivid_10_i386.deb
+Size: 1948
+MD5sum: 55a59820b439a0df4c3fdb334ec2a18e
+SHA1: 162a1d8d5d0b53c558163be4ded7dde088f7ac89
+SHA256: 0732dd1c2904eceea72841c10efd37efe8c2ba7d8dbb5520d04836f8074b2584
+Description: Transitional package for xserver-xorg-core-lts-vivid
+Description-md5: 220da4cb3f298a40d236c1ca4db4b94b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-core-lts-vivid-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-core-lts-vivid-dbg_10_i386.deb
+Size: 1954
+MD5sum: 3b190341908ea3dd5b2c80eb4a2b9820
+SHA1: bcf810eef5af72beea8c246f18cd46227286cf17
+SHA256: 7246700d2aa4c2a0c7d5e15c8fd4fda50ac17591d18b0594721533d0c940da52
+Description: Transitional package for xserver-xorg-core-lts-vivid-dbg
+Description-md5: 1cfd0e7dda6e6402c8a96aa9eb440577
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-core-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-core-lts-wily_10_i386.deb
+Size: 1950
+MD5sum: 83a0f65e2b2265d6d58899b5c2a4eb4c
+SHA1: 006a931d163533b65f4182c71659ab61599313a8
+SHA256: 6865c48160821e02ed08d61a56c38fd251222c4f43dbae587aa356b3257ceaf4
+Description: Transitional package for xserver-xorg-core-lts-wily
+Description-md5: cf53fa10ccacb007420b10e365f523fd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-core-lts-wily-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-core-lts-wily-dbg_10_i386.deb
+Size: 1956
+MD5sum: c54465bb637bb3352abf2174c13da4ac
+SHA1: 6d435d2e81adfa77030b57a174c75dd084889027
+SHA256: 7e47351ae6120d85a53e10b3193869ff287cb470887abc473cfa0f7ddf341c2b
+Description: Transitional package for xserver-xorg-core-lts-wily-dbg
+Description-md5: 6418568cf8da59728e125f611a2d7a80
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-dev
+Priority: optional
+Section: x11
+Installed-Size: 1405
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xorg-server
+Version: 2:1.18.3-1ubuntu2
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-core-dev (>= 7.0.28), x11proto-input-dev (>= 2.3), x11proto-xext-dev (>= 7.2.99.901), x11proto-video-dev, x11proto-randr-dev (>= 1.5.0), x11proto-render-dev (>= 2:0.11), x11proto-dri2-dev (>= 2.8), x11proto-gl-dev (>= 1.4.17), x11proto-fonts-dev (>= 2.1.3), x11proto-xinerama-dev, x11proto-kb-dev, x11proto-xf86dri-dev, x11proto-resource-dev (>= 1.2.0), x11proto-scrnsaver-dev, x11proto-xf86bigfont-dev (>= 1.2.0), x11proto-dri3-dev, x11proto-present-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev, libmirclient-dev, mir-client-platform-mesa-dev
+Filename: pool/main/x/xorg-server/xserver-xorg-dev_1.18.3-1ubuntu2_i386.deb
+Size: 197198
+MD5sum: d1ff8390343d6a10d6661b6865398aeb
+SHA1: a9449ee4dd9881db82aaa5f79131092b3d539246
+SHA256: 72d9c3a64ba18adca296cf44dc71691c925b6f7bd8f309d51bd4d5d94afe47bd
+Description: Xorg X server - development files
+Homepage: http://www.x.org/
+Description-md5: 241552d78aca8911808aea0707649843
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-dev-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-dev-lts-utopic_10_i386.deb
+Size: 1948
+MD5sum: 5e73634e584b2a40cbfc1737d75c7827
+SHA1: 7471208827ab667938b04d0bdd5519a9320ed1f0
+SHA256: aada8aeb412e8910857358c8b05fa27c6c53167c65912d76dc8036d1dba07a27
+Description: Transitional package for xserver-xorg-dev-lts-utopic
+Description-md5: c38444bfaa08afdb2e45ac68221c1586
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-dev-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-dev-lts-vivid_10_i386.deb
+Size: 1948
+MD5sum: f43ddb8aeb2707b7a20761085c98c5d2
+SHA1: 8329e93ddbf405f960e08dd16919213db345d880
+SHA256: 997f975019f137d3f0a7c04ee468ef854b43d4610207f16ce58c4d826715ff7c
+Description: Transitional package for xserver-xorg-dev-lts-vivid
+Description-md5: 3252caf3bcb419a248334fcdb5e03a2f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-dev-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-dev-lts-wily_10_i386.deb
+Size: 1940
+MD5sum: d1d8aa83b6c818bc1b115bcdf507b11f
+SHA1: bf2b84dfe03f6d854fbbe5f13356a7dd58bd3f05
+SHA256: 7818d641ac01c44f2273221c5b9f0471f34c3612f695156819ebe9d44d1c2205
+Description: Transitional package for xserver-xorg-dev-lts-wily
+Description-md5: 0613c8fa91cebdf1e3c1e89ba624d928
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-all
+Priority: optional
+Section: x11
+Installed-Size: 48
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xorg
+Version: 1:7.7+13ubuntu3
+Depends: xserver-xorg-input-evdev, xserver-xorg-input-synaptics, xserver-xorg-input-vmmouse, xserver-xorg-input-wacom
+Filename: pool/main/x/xorg/xserver-xorg-input-all_7.7+13ubuntu3_i386.deb
+Size: 4396
+MD5sum: 6dc9126dc0cc701c9eaf0afc7e5a2d31
+SHA1: 369daaaa7a689aa142ae1439ec3ae10571039acf
+SHA256: b204c426748be74ccea6fbe5ede483426818c78475a0bcb977a9fdd79849fc84
+Description: X.Org X server -- input driver metapackage
+Homepage: http://www.x.org/
+Description-md5: 6dc6019c398114619eba5fcd5806f328
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-input-all-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-all
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-all-lts-utopic_10_i386.deb
+Size: 1954
+MD5sum: dbceef423187a972ea29088db9ffdd35
+SHA1: 2cc0d6dc08334443297abee48173c5d1a1ee136b
+SHA256: d63b530831df97e38a26042508c15fed9c0a8d54e75a744efa7a9bc9266336f1
+Description: Transitional package for xserver-xorg-input-all-lts-utopic
+Description-md5: 3f315cca59ddf177ec5c5a8b05e473f4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-all-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-all
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-all-lts-vivid_10_i386.deb
+Size: 1956
+MD5sum: 4cb401fbd4a67353f14830660ca05fea
+SHA1: f07ea2a306f9aee29bdf952c2d10e3d7f6c94eec
+SHA256: 50ac0da4b5dd8945adf0211dccf74f371b07bf087e8ceae8dfb27b6de1cfc669
+Description: Transitional package for xserver-xorg-input-all-lts-vivid
+Description-md5: 4d8a3b1fd237308f018f7f8834b61bf5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-all-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-all
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-all-lts-wily_10_i386.deb
+Size: 1954
+MD5sum: 03cc01e5af0c17c7fceb2957316b3bf5
+SHA1: c3de01a4357e9071af8da5566432f9d47e5ddb47
+SHA256: cd0eae6f0771bd06df9c1e5ac7d95a87b3812a7a7da0885ab020769f62bc0a87
+Description: Transitional package for xserver-xorg-input-all-lts-wily
+Description-md5: 829162e45b07c6e66a7b07f99c9694fa
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev
+Priority: optional
+Section: x11
+Installed-Size: 98
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 1:2.10.1-1ubuntu2
+Replaces: xserver-xorg-core (<< 2:1.18.0-1)
+Provides: xorg-driver-input
+Depends: libc6 (>= 2.7), libevdev2 (>= 0.9.1), libmtdev1 (>= 1.1.0), libudev1 (>= 183), xorg-input-abi-22, xserver-xorg-core (>= 2:1.17.99.902)
+Breaks: xserver-xorg-core (<< 2:1.18.0-1)
+Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev_2.10.1-1ubuntu2_i386.deb
+Size: 32784
+MD5sum: 9612ece57dac46e752ffb8c5386e3141
+SHA1: 38cca5b7116da2265019e6b1384d48370658f9f0
+SHA256: 5a85ce330844ff6a262ed4f0d419f1fe18477299b9b28290cbe5e27f12439595
+Description: X.Org X server -- evdev input driver
+Description-md5: b1ff33be36b557401f92e75bd8542eed
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-input-evdev-dbg
+Priority: extra
+Section: debug
+Installed-Size: 243
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-input-evdev
+Version: 1:2.10.1-1ubuntu2
+Depends: xserver-xorg-input-evdev (= 1:2.10.1-1ubuntu2)
+Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-dbg_2.10.1-1ubuntu2_i386.deb
+Size: 67348
+MD5sum: be53b0152c04f678fb598ad2153837ad
+SHA1: 9fd089db4f5b07957089fb0ea51003bdc77a0ddd
+SHA256: a0ade7607648364de9424fe7dd1a7954f2fc2ea64eb84d1c1e3c5b2eaceae052
+Description: X.Org X server -- evdev input driver (debug symbols)
+Description-md5: 1e3eca5ce0283f65f230ea88398f2b2a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 29
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Source: xserver-xorg-input-evdev
+Version: 1:2.10.1-1ubuntu2
+Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-dev_2.10.1-1ubuntu2_all.deb
+Size: 4978
+MD5sum: ea20c7f9c0d71ee374c9d18a7cab2cec
+SHA1: 031302edbe64ce61f4eb5c27612a279f024d7d81
+SHA256: b96c79c3954344fac4879bc72a26f54eb28ce1e09fbb745bd35de4d6f5b28596
+Description: X.Org X server -- evdev input driver (development headers)
+Description-md5: 2e3206bb3c027a0b8e6b2e8022db7f99
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-dev-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-dev-lts-utopic_10_i386.deb
+Size: 1956
+MD5sum: 96bcc082cc23a8822dd466d6ad793b7b
+SHA1: b4df0f521fcd8e80e39213fb15b6d083fb9ada74
+SHA256: e6492562bcbe600812444674eb1e30c5074871bc41ae553901edf4c0d03f4574
+Description: Transitional package for xserver-xorg-input-evdev-dev-lts-utopic
+Description-md5: a4c4209da2c8576d9ca425bea79eae39
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-dev-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-dev-lts-vivid_10_i386.deb
+Size: 1964
+MD5sum: 867a8b2a24a9873648d5b59aba013371
+SHA1: 684771065a4a8247311a6201a32e29eb0378b9d1
+SHA256: 5d7d0e4a39b62cdb5d2fc9bc1b41aa27ed687822b01abe236c9af088c4550476
+Description: Transitional package for xserver-xorg-input-evdev-dev-lts-vivid
+Description-md5: 0a3a42280aaf465516c2bb0840f362a8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-dev-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-dev-lts-wily_10_i386.deb
+Size: 1964
+MD5sum: ab044a4f8f67e49931be7dad4b68d45a
+SHA1: 989eec3d80e80a3e8fc4b6677205347820c54a96
+SHA256: 477c66d8d34c30e743281fa134b90e37d8b4d8b956a9caf068af0cb31838269b
+Description: Transitional package for xserver-xorg-input-evdev-dev-lts-wily
+Description-md5: 442b66e3c980ea9b34fd636d6f3a4edd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-lts-utopic_10_i386.deb
+Size: 1964
+MD5sum: b41586efb1c0cb75bb14ca4cff3afc3a
+SHA1: e9f69a90349b51ef6bd1acede4ab1a949b93050a
+SHA256: 668a6a2e8cf0e217a14ad38f92bd6360286c5007ad5122d86d8ca350de14df8a
+Description: Transitional package for xserver-xorg-input-evdev-lts-utopic
+Description-md5: b05312a10c379246e34b447a4be1bdbe
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-lts-utopic-dbg_10_i386.deb
+Size: 1962
+MD5sum: fb4c474b9cf9f049036dd06b1b442a77
+SHA1: 767870129319086a8c9f0109faa810f7dfea08a4
+SHA256: 395e93e3bb88451366cbb3a329e8936e7c2e0407eef154959d836e58b2867ada
+Description: Transitional package for xserver-xorg-input-evdev-lts-utopic-dbg
+Description-md5: 81853ef4c7647c5bcf0b52b7faba3089
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-lts-vivid_10_i386.deb
+Size: 1962
+MD5sum: a63f22b790b16c6ee4ff451432a9897a
+SHA1: 82c082768e5b2d4a730c755d53e92b1d64addaf0
+SHA256: e1119c16f533a23cd762ab26494287390d6c0d6eb018760a370e524f0d880cb5
+Description: Transitional package for xserver-xorg-input-evdev-lts-vivid
+Description-md5: 2e126e0d038066a181dc66bdc3228e7e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-lts-vivid-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-lts-vivid-dbg_10_i386.deb
+Size: 1966
+MD5sum: f824d2f9289fa68e70bf04f9d4252f15
+SHA1: 0263f2088218f8932ed7ec151ec2565a24ef744e
+SHA256: 5987e92cc85eba877fd1b31b0af83e72c262693b27f95ce44bdf57f3395143c2
+Description: Transitional package for xserver-xorg-input-evdev-lts-vivid-dbg
+Description-md5: bcfb3c79580db39f043c90ab7af2c768
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-lts-wily_10_i386.deb
+Size: 1956
+MD5sum: 65f97d442cb90b07e0128a7a0261d472
+SHA1: 1a73e89832e41ac7576e1673ac38207f57f47972
+SHA256: 5d8b40480c223176f0cd608fe3126cf13ccb33b66a9929bd6fec121e96348ff5
+Description: Transitional package for xserver-xorg-input-evdev-lts-wily
+Description-md5: c498bdd6a5884a45c482e2e80b9685e4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-evdev-lts-wily-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-evdev-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-evdev-lts-wily-dbg_10_i386.deb
+Size: 1966
+MD5sum: a3e8842acab2681342a296e2cbd1e662
+SHA1: 2e27f480c7ef6cfcacc6abb1996849409a8f5414
+SHA256: faca5e7f9e53aeb79d086417990d76f1855034cc56088bc629ae418aa482b017
+Description: Transitional package for xserver-xorg-input-evdev-lts-wily-dbg
+Description-md5: bf2e28f29965ab7e61d810f8ae7eca17
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-kbd-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-kbd-lts-utopic_10_i386.deb
+Size: 1958
+MD5sum: 41ed7bcd260795c237ee8bdc2c2bbdb0
+SHA1: 22d655285a2b7840c84c0c26b40d201529d0f6fc
+SHA256: 1b5d38b2ab4097f2a6121acb8d5ee2259087d4dd9fb4e29930510e3b46187b0b
+Description: Transitional package for xserver-xorg-input-kbd-lts-utopic
+Description-md5: d326c5edfdcc77945774bdc4931c21e6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-kbd-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-kbd-lts-vivid_10_i386.deb
+Size: 1958
+MD5sum: b9abf9dea4d944ddeca93ee668826767
+SHA1: ab96036440e3f96d48305bf5a612750cd186a3ef
+SHA256: 2e400d62d93c14ba35cb4e17acf094f927429c269a83373865dafff2caf9b83f
+Description: Transitional package for xserver-xorg-input-kbd-lts-vivid
+Description-md5: f282b1f16fa3ff875cb585f0bc04fc02
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-kbd-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-kbd-lts-wily_10_i386.deb
+Size: 1960
+MD5sum: 8c46a9930c11ccc83c050c050516e5b6
+SHA1: 9867ab841ef47e19ebf8b1aa4fbe56aa56b6423e
+SHA256: f0d490885189c7bdfd151e6c221b20e74007a705a8ad890244b4cd29955947c9
+Description: Transitional package for xserver-xorg-input-kbd-lts-wily
+Description-md5: ce1ed2cf0bf07e37597fb97d5ca3ac80
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-mouse-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-mouse-lts-utopic_10_i386.deb
+Size: 1964
+MD5sum: 4705a4d7e4b6cc032b6e2eff3c7d0e80
+SHA1: df4f77fdda248d1e0fe7d1abfc19af2cbef01392
+SHA256: 952a2d2582efb5622d38c476a3ecdfba66968aa2bb427389d9927011e9607b1b
+Description: Transitional package for xserver-xorg-input-mouse-lts-utopic
+Description-md5: 3164e7a3e730170e86b3fc7883b7e34b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-mouse-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-mouse-lts-vivid_10_i386.deb
+Size: 1964
+MD5sum: 5b381a32356492019afe2390f91cbdaf
+SHA1: db954f716af7eaa6747b1da7ff53d118cc281e8e
+SHA256: 8d447e293392ee657651dc9876f5467565a19d73e4ec8bc98ceccf60c93cb033
+Description: Transitional package for xserver-xorg-input-mouse-lts-vivid
+Description-md5: 6acfb02891d0a78400784460f62d4a91
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-mouse-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-mouse-lts-wily_10_i386.deb
+Size: 1958
+MD5sum: cbd74e7311a9cc1014669060776ae877
+SHA1: ef1cbad2bd8468e549da14d08bf95a483ded5414
+SHA256: 634103a1dee33d1c2e85a0768be5e5505f717fc7b7a3357cccb14ab11e06ce9e
+Description: Transitional package for xserver-xorg-input-mouse-lts-wily
+Description-md5: 3ac3de112e359f2282ec9812c862a997
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics
+Priority: optional
+Section: x11
+Installed-Size: 176
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 1.8.2-1ubuntu3
+Replaces: xorg-driver-synaptics
+Provides: xorg-driver-input, xorg-driver-synaptics
+Depends: libc6 (>= 2.15), libevdev2 (>= 0.9.1), libx11-6, libxi6 (>= 2:1.2.0), libxtst6, xorg-input-abi-22, xserver-xorg-core (>= 2:1.17.99.902)
+Suggests: gpointing-device-settings, touchfreeze
+Conflicts: xorg-driver-synaptics
+Breaks: kde-config-touchpad (<< 0.8.1-2~)
+Filename: pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics_1.8.2-1ubuntu3_i386.deb
+Size: 64672
+MD5sum: ad74028335ce0f701442ba4fab188295
+SHA1: af49c7410033e93f82e15c1d7f13511d83a7c801
+SHA256: 67e21d5fc48ab3d89ac0a66a28598a9bb28525c3662bb67ad725bb6f0cee5047
+Description: Synaptics TouchPad driver for X.Org server
+Description-md5: 6f7a84d9a52f4dc44fd0ad7cc265853b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-input-synaptics-dbg
+Priority: extra
+Section: debug
+Installed-Size: 196
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-input-synaptics
+Version: 1.8.2-1ubuntu3
+Depends: xserver-xorg-input-synaptics (= 1.8.2-1ubuntu3)
+Filename: pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics-dbg_1.8.2-1ubuntu3_i386.deb
+Size: 146196
+MD5sum: b8c409ef74f5f37f62507c8d914067d4
+SHA1: 382218f98ec3458812528fb32cb24fab2532df9d
+SHA256: 04333c034dfd1d854e32f9c4c264dbe15b6f102ceaa0a0d0f422d0a01b5b4002
+Description: Synaptics TouchPad driver for X.Org server
+Build-Ids: dcebe40f5bb0ee745a1676d1b01369ab0018b8bc f208de02ecfa4d48437ef06be5192adbe52e0565 f44b68fa48904488f43f87d5c66618fc43c59c1b
+Description-md5: c936b293973e295acf8a1d70dd001072
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-dev
+Priority: optional
+Section: libdevel
+Installed-Size: 39
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: all
+Source: xserver-xorg-input-synaptics
+Version: 1.8.2-1ubuntu3
+Depends: x11proto-core-dev
+Filename: pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics-dev_1.8.2-1ubuntu3_all.deb
+Size: 6960
+MD5sum: f2a676f6501cba0c3c99ebb6369f3881
+SHA1: 7dce8f20da3ed2201e342f3da1daba9a71a3cd03
+SHA256: b010b423b018dc9546324417307f29f66f9d73044456d3403e30b35f39b7c801
+Description: Synaptics TouchPad driver for X.Org server (development headers)
+Description-md5: 95eb93bc0953189d6cf98a189b43a0ca
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-dev-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-dev-lts-utopic_10_i386.deb
+Size: 1970
+MD5sum: df9f3ac977155e27a5118476c2e88fd3
+SHA1: 2dad7b3bf708fcd79bc70c312c5f0c17302cd3eb
+SHA256: b5f89e97241d3b52ac0bf5e23acb139a7f4c5441b3a5efa0ba54e8636b02d01c
+Description: Transitional package for xserver-xorg-input-synaptics-dev-lts-utopic
+Description-md5: 7e7537d2cdfc5cd0362d6a4929bc3e83
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-dev-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-dev-lts-vivid_10_i386.deb
+Size: 1970
+MD5sum: 775a7470f2dc6d19169ed2cc8ef5ebd5
+SHA1: ce3a30b27a816f441a15843ce50b57a3b1effc82
+SHA256: 0dc92c2c8379a10a993e489abde98f37fd59cfac2d24facb579337573db3eb57
+Description: Transitional package for xserver-xorg-input-synaptics-dev-lts-vivid
+Description-md5: cb621d86795adb7645fc13b98c74081b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-dev-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics-dev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-dev-lts-wily_10_i386.deb
+Size: 1966
+MD5sum: ea856e2bf91bc154842bef4fe7372c5c
+SHA1: a1ff9d36a3de60aeb3bc4b192b0ae645cb172817
+SHA256: 452c204930ab2576aea95adfad9413235beee035b65db99451efa1d3aa8c0fd1
+Description: Transitional package for xserver-xorg-input-synaptics-dev-lts-wily
+Description-md5: 3aa116d6afae9b3e03d05a3ed83cd66b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-lts-utopic_10_i386.deb
+Size: 1956
+MD5sum: d451cd6730f633bf25977128bf9c67ef
+SHA1: 02876f533f0e7afddeddac73bfe93911040adec8
+SHA256: 4b14b447439894a824568f7d124d268405c167daf45b001aaaa7bf44fed21805
+Description: Transitional package for xserver-xorg-input-synaptics-lts-utopic
+Description-md5: 863b3bf526f031e8a81f4f401305e282
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-lts-utopic-dbg_10_i386.deb
+Size: 1970
+MD5sum: cf515645b6a154699600a53089d78eb9
+SHA1: c8c29179bcf7d172f1481692066cf83c694caadd
+SHA256: d12144eb03d7ae9573a374d096717e9704af87ca6e3c2e2380f775e0d83c73bf
+Description: Transitional package for xserver-xorg-input-synaptics-lts-utopic-dbg
+Description-md5: fd959a1c3ba976ba8cf5898b5b0ab7c9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-lts-vivid_10_i386.deb
+Size: 1966
+MD5sum: 658152ce2a2ececcacd4209e9681ab0b
+SHA1: ad3be0a442b9b270b23bdae85ebb47e0584c90f8
+SHA256: 1e1347b3ccd6c8706423db2981163642ad02a34561eb6a2f8ec97a4b8c458cc9
+Description: Transitional package for xserver-xorg-input-synaptics-lts-vivid
+Description-md5: f0c3213c21f0355bd84b9cf95290fb1a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-lts-vivid-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-lts-vivid-dbg_10_i386.deb
+Size: 1966
+MD5sum: f5be66467efeb6789465669c34eb506f
+SHA1: 1f5ebf82d0da9b4d784601cfcf9e652da278c58e
+SHA256: e30b21a68883a89d0e378ae4d017f0f2f3cfd7f8cee796b8ab124ec928a95f75
+Description: Transitional package for xserver-xorg-input-synaptics-lts-vivid-dbg
+Description-md5: 001336166eb9a228212200f844504c57
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-lts-wily_10_i386.deb
+Size: 1964
+MD5sum: a64c43cfbf556851661ca04ad55c83a4
+SHA1: b385d828c9e0fe25f9ecce7b71995d140d3a539b
+SHA256: a5c090dae4e14e1598f5c956e7ac5eb96ff69ebcfc96ce94a8bfc748b619da75
+Description: Transitional package for xserver-xorg-input-synaptics-lts-wily
+Description-md5: c16f869ebb73627fa38e7c29fb270d6a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-synaptics-lts-wily-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-synaptics-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-synaptics-lts-wily-dbg_10_i386.deb
+Size: 1970
+MD5sum: e8597faf417200ebaf1b37e1d5afdb82
+SHA1: f73a05867c143bb7affd49007973c66ed1483a21
+SHA256: 020d77422716bfb5d318c87ff995f87083379d29215680ab3d1afc7e5aaa7096
+Description: Transitional package for xserver-xorg-input-synaptics-lts-wily-dbg
+Description-md5: f6267cd7629b3128cf2338621b9d7320
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-vmmouse
+Priority: optional
+Section: x11
+Installed-Size: 59
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 1:13.1.0-1ubuntu2
+Provides: xorg-driver-input
+Depends: libc6 (>= 2.7), libudev1 (>= 183), xorg-input-abi-22, xserver-xorg-core (>= 2:1.17.99.902), udev
+Filename: pool/main/x/xserver-xorg-input-vmmouse/xserver-xorg-input-vmmouse_13.1.0-1ubuntu2_i386.deb
+Size: 14706
+MD5sum: d070bacab680815769f0bfe9b73b8f5f
+SHA1: 74ab6d650b1fe2887b603b2e684d68bbd886122f
+SHA256: 1a5202904b94fff2287a5f2f9d948cd8b729afca3f106249daa6d0a7ac6bf2d5
+Description: X.Org X server -- VMMouse input driver to use with VMWare
+Description-md5: aabb1c4203e92983f6cfdcb6e9300e31
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-input-vmmouse-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-vmmouse
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-vmmouse-lts-utopic_10_i386.deb
+Size: 1964
+MD5sum: 5c0ffcaf2ff35d01ed322e1bd5bc0a4b
+SHA1: 032e3b550b9335a87419441a18e9c2362596ea2a
+SHA256: d9633a9efc2f48877807b3766ba1b0bffb98bc4e75709e221b0147623254a90f
+Description: Transitional package for xserver-xorg-input-vmmouse-lts-utopic
+Description-md5: e614277f51f9bdcf861a368df4ca18a4
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-vmmouse-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-vmmouse
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-vmmouse-lts-vivid_10_i386.deb
+Size: 1962
+MD5sum: c1479b8a8ea1657bac5ed6217fac096b
+SHA1: b64eb3c8a596002a4af1e049109d32dfb873d5b1
+SHA256: f3318fb428f79c045ee9afad1189c5f85121e1fff77b0efd9a4529e645e58abc
+Description: Transitional package for xserver-xorg-input-vmmouse-lts-vivid
+Description-md5: 5d36ee2cb1d2be65c2f1f9a5d9858035
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-vmmouse-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-vmmouse
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-vmmouse-lts-wily_10_i386.deb
+Size: 1960
+MD5sum: c00abc16149811155ec926f7835e5f58
+SHA1: 21e582da07c235de3e07a0f42fc5fb0e1449c96a
+SHA256: 4fdbbc3fa275bcc8639307b44a494d098a8af477f87caff39646a6c19a92b322
+Description: Transitional package for xserver-xorg-input-vmmouse-lts-wily
+Description-md5: 32c7381b580731eca0b3fb59a91dd22b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-wacom
+Priority: optional
+Section: x11
+Installed-Size: 265
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Architecture: i386
+Source: xf86-input-wacom
+Version: 1:0.32.0-0ubuntu3
+Replaces: wacom-tools (<< 0.10.0)
+Provides: xorg-driver-input
+Depends: xorg-input-abi-22, xserver-xorg-core (>= 2:1.17.99.902), libc6 (>= 2.4), libudev1 (>= 183), libx11-6, libxi6 (>= 2:1.2.0), libxinerama1, libxrandr2 (>= 2:1.2.0)
+Suggests: xinput
+Conflicts: wacom-tools (<< 0.10.0)
+Filename: pool/main/x/xf86-input-wacom/xserver-xorg-input-wacom_0.32.0-0ubuntu3_i386.deb
+Size: 87030
+MD5sum: 53a18430475377418531037b213ce82e
+SHA1: e4a521b92c360908e531884083b9b708272dc42b
+SHA256: 06d7c7a542578adbdd8884c547548fd457a9fd2753e290d58189dd9fdc161cff
+Description: X.Org X server -- Wacom input driver
+Homepage: http://linuxwacom.sf.net
+Description-md5: 990a6fd67780d38db31b26b3018b5519
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-input-wacom-dbg
+Priority: extra
+Section: debug
+Installed-Size: 277
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Ron Lee <ron@debian.org>
+Architecture: i386
+Source: xf86-input-wacom
+Version: 1:0.32.0-0ubuntu3
+Depends: xserver-xorg-input-wacom (= 1:0.32.0-0ubuntu3)
+Filename: pool/main/x/xf86-input-wacom/xserver-xorg-input-wacom-dbg_0.32.0-0ubuntu3_i386.deb
+Size: 221380
+MD5sum: b04bca2aa0ca084787f20d132569ccd1
+SHA1: 8dea9246c35f5c7ba1919de3d74f3b552a34a12e
+SHA256: c63fda838912b9a48d2b9ed958f932245a8c1b41be648c7b5a9a4a603aad8829
+Description: X.Org X server -- Wacom input driver
+Homepage: http://linuxwacom.sf.net
+Build-Ids: 366baf800635f63fffdb1aa329a96910ae775e6b 40b6e7e4921ada16c13ee5699813c0e82e7c3450 7ab4fba76925384acca83375f6c3e0827066c3cb f5ac59ed9ddf5bdfaac44b66f1a089026a55a981
+Description-md5: 33116a9dd722b7618ab0bb40981493d7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-wacom-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-wacom
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-wacom-lts-utopic_10_i386.deb
+Size: 1958
+MD5sum: 713fb855c1f7290eae760002c5a16b9f
+SHA1: b8c0f36125ad5f88832d41b42d06fc8d56f1c812
+SHA256: dc084d48025a671c87677e778e3c872c8aba7d110ec90237f25db9bc252f9b20
+Description: Transitional package for xserver-xorg-input-wacom-lts-utopic
+Description-md5: 68c3af3e65071f12cf869249cc132601
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-wacom-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-wacom-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-wacom-lts-utopic-dbg_10_i386.deb
+Size: 1964
+MD5sum: a3fa067cd18508310377069dbe7b536a
+SHA1: 3ac0f9877fcc294a5c485142d808be1f07628ab9
+SHA256: 7da575f4f255f6f06acd7d4b808e065d632b093c1793f574212f6951910c4398
+Description: Transitional package for xserver-xorg-input-wacom-lts-utopic-dbg
+Description-md5: a65d1f465df96dd4d3e6c7b441181060
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-wacom-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-wacom
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-wacom-lts-vivid_10_i386.deb
+Size: 1958
+MD5sum: 6e10a3d689722b81a9a4e409e3392981
+SHA1: bda8c8dbc68316eb45dfd4bdc23fa5b45a9eac64
+SHA256: c3c5af4a988237d20c144b15cc66b4b52987702aa14bdf20698cd88ae2cdd084
+Description: Transitional package for xserver-xorg-input-wacom-lts-vivid
+Description-md5: 795295506423ebf407967665b82675ce
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-wacom-lts-vivid-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-wacom-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-wacom-lts-vivid-dbg_10_i386.deb
+Size: 1966
+MD5sum: b509b8c4e123e6809a22a9deb9e728ae
+SHA1: ce6841b91ac9a0f38de363fee0b75af98b147a10
+SHA256: 458415592d8f598ee5828500602ba20ca750bf266ee402eced2f17710a898993
+Description: Transitional package for xserver-xorg-input-wacom-lts-vivid-dbg
+Description-md5: 11d9da9ec531fc6b453aa12bc07f41aa
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-wacom-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-wacom
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-wacom-lts-wily_10_i386.deb
+Size: 1956
+MD5sum: b974cca86bf4e1a5ab8e5f2af50cd8cd
+SHA1: 773ec0b4b7db70cd6e453da991d82f654eca66df
+SHA256: d763819c294334b6f49f289c5b717af7495cfb42e948937eff4dfbdb9221a77b
+Description: Transitional package for xserver-xorg-input-wacom-lts-wily
+Description-md5: 8a63745999b91557fc018b0e86528544
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-input-wacom-lts-wily-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-input-wacom-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-input-wacom-lts-wily-dbg_10_i386.deb
+Size: 1966
+MD5sum: 0eac1ddb5ca115f1eea3f6c593160316
+SHA1: ac750ecc869bf169e3cbc99fc5ddc695dd6c0c18
+SHA256: 47de7f217859271345ce36fb999ee269c3566d4b2aee37f7bdd69bc7d8cef37d
+Description: Transitional package for xserver-xorg-input-wacom-lts-wily-dbg
+Description-md5: e4b13cf47457c269c2ad843312a457f1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-legacy
+Priority: extra
+Section: x11
+Installed-Size: 256
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xorg-server
+Version: 2:1.18.3-1ubuntu2
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Depends: xserver-common (>= 2:1.18.3-1ubuntu2), libc6 (>= 2.3.4), debconf (>= 0.5) | debconf-2.0
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy_1.18.3-1ubuntu2_i386.deb
+Size: 34814
+MD5sum: a26915f96969d854be3f0da7b9a12521
+SHA1: e3b53b73d59aed99302f5b9c8b77b4db632a4430
+SHA256: cf51265dfe102d5d80262d26b326e332fda433e58199a6b009619b17d2175535
+Description: setuid root Xorg server wrapper
+Homepage: http://www.x.org/
+Description-md5: a49fa8443df84effdf1fd36e26ad0f94
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-gnome-desktop
+
+Package: xserver-xorg-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-lts-utopic_10_i386.deb
+Size: 1940
+MD5sum: 691c914464c02524740ca682b835d864
+SHA1: c002d738ee7682c86a2ad5a887260f5469986bbe
+SHA256: 31cf1f303117cb7a9615ad324eea189c045942c14a55ae3d9d46754ce8abc3b1
+Description: Transitional package for xserver-xorg-lts-utopic
+Description-md5: ccaa7cc49af6dc6604e6e62f17244c7f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-lts-vivid_10_i386.deb
+Size: 1938
+MD5sum: 45be63f9065a3c17d2bcd08515df90be
+SHA1: 0385246896a1fbc43387a16c022574d082c337c0
+SHA256: 49026cdd778a9425729a87ee1c28a59f61a805f47000bd28ab5b507f0b28739e
+Description: Transitional package for xserver-xorg-lts-vivid
+Description-md5: a233246a2e343041666b69a0b3fdd9ad
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-lts-wily_10_i386.deb
+Size: 1936
+MD5sum: 6adcfd2e2e9514fed2b588ced7f06f78
+SHA1: 5e75d68f52fb771c2665a6da5f820b0c7568e601
+SHA256: 1b3597eea53a73f283b8618cd788aaaaf44d9da09f12a16d55eb5bc1903526e2
+Description: Transitional package for xserver-xorg-lts-wily
+Description-md5: d7fc42c736cf08a52eb48232e8761db5
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-all
+Priority: optional
+Section: x11
+Installed-Size: 48
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xorg
+Version: 1:7.7+13ubuntu3
+Replaces: xserver-xorg-driver-all
+Depends: xserver-xorg-video-amdgpu, xserver-xorg-video-ati, xserver-xorg-video-fbdev, xserver-xorg-video-nouveau, xserver-xorg-video-vesa, xserver-xorg-video-vmware
+Recommends: xserver-xorg-video-intel, xserver-xorg-video-qxl
+Suggests: xserver-xorg-video-geode
+Conflicts: xserver-xorg-driver-all
+Filename: pool/main/x/xorg/xserver-xorg-video-all_7.7+13ubuntu3_i386.deb
+Size: 4450
+MD5sum: bc6c291a261e45983495314474006fb0
+SHA1: 4d7dd9382b7b9821dfd181f4e9afe3e736a109e4
+SHA256: 2255f8ee930bb86f931ae28571c822a0e95b613c79325b1d043f6c537ca57fdf
+Description: X.Org X server -- output driver metapackage
+Homepage: http://www.x.org/
+Description-md5: d6c33380f65bba53cd75efae633435bf
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-video-all-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-all
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-all-lts-utopic_10_i386.deb
+Size: 1956
+MD5sum: df761c3726287dc61ad171da4ae8b0fa
+SHA1: e8cbe2cbea766ed40ad22a57fa37a57c3fb56bf4
+SHA256: 0524daafe934632bd4051fc276c07d3663ed6351d207888b3081bb73893a479f
+Description: Transitional package for xserver-xorg-video-all-lts-utopic
+Description-md5: 473b44ee8fe68b8b70e22fb0ca2d85e7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-all-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-all
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-all-lts-vivid_10_i386.deb
+Size: 1950
+MD5sum: ebc7458aa06a91180e785c7996b32ca2
+SHA1: 2b8c6c56f2758e4ec2f84d6ac4bc9b2b9d38c13f
+SHA256: 73c6dd9303658f679da739dba764f5b450606a70b4e9fbaee92ed3bcc05bac1d
+Description: Transitional package for xserver-xorg-video-all-lts-vivid
+Description-md5: 06180c5665dd29565f4c1dc22c65c4d6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-all-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-all
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-all-lts-wily_10_i386.deb
+Size: 1956
+MD5sum: e588a85229f908f56a189223171e5f96
+SHA1: 4af7631c5b4adb8d4b2448d6b56201fcb50b5c2f
+SHA256: caa22c6829206e4e63b30f383768684e7fa5cb5a5710853c3979c36b31774090
+Description: Transitional package for xserver-xorg-video-all-lts-wily
+Description-md5: cb53acf13378d170f6daedaf8b26ebf8
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-amdgpu
+Priority: optional
+Section: x11
+Installed-Size: 153
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 1.1.0-1
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.17), libdrm-amdgpu1 (>= 2.4.63), libgbm1 (>= 10.2~0), libudev1 (>= 183), xorg-video-abi-20, xserver-xorg-core (>= 2:1.17.99.902)
+Suggests: firmware-amd-graphics
+Filename: pool/main/x/xserver-xorg-video-amdgpu/xserver-xorg-video-amdgpu_1.1.0-1_i386.deb
+Size: 55642
+MD5sum: 5c650cf0b4ec944d5472ff5ad84f5b61
+SHA1: ff5cd92293da7c323b81b44705f1c1762c984e5b
+SHA256: e8ba5cd34b835c1a8705bfb558dd68b6f1d46916511ed6059f75400685ec76ab
+Description: X.Org X server -- AMDGPU display driver
+Description-md5: e2b193b8ecbf0f4c08a535d8f9541c51
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-video-amdgpu-dbg
+Priority: extra
+Section: debug
+Installed-Size: 339
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-video-amdgpu
+Version: 1.1.0-1
+Depends: xserver-xorg-video-amdgpu (= 1.1.0-1)
+Filename: pool/main/x/xserver-xorg-video-amdgpu/xserver-xorg-video-amdgpu-dbg_1.1.0-1_i386.deb
+Size: 309778
+MD5sum: 1a6ffd4b5b913d367a0e78b6189d074a
+SHA1: 3eddf67e4b6b06d179760482f69b9294521f97f5
+SHA256: b072d47d4826ba156470df5c8ca83375dc330c78d041cfae7b2635964ee9f92a
+Description: X.Org X server -- AMDGPU display driver (debugging symbols)
+Build-Ids: b05b0d2895fc533b849fe8e30da552eec3fb81f7
+Description-md5: cb3e55dcb83b9c0efda09e8a285f9b3b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-ati
+Priority: optional
+Section: x11
+Installed-Size: 39
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 1:7.7.0-1
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.4), libpciaccess0, xorg-video-abi-20, xserver-xorg-core (>= 2:1.17.99.902), xserver-xorg-video-radeon
+Suggests: xserver-xorg-video-r128, xserver-xorg-video-mach64
+Filename: pool/main/x/xserver-xorg-video-ati/xserver-xorg-video-ati_7.7.0-1_i386.deb
+Size: 6896
+MD5sum: 0f83b3521f0ca23fc662c88f2d94df56
+SHA1: 03f49b4fe1aae006747f83deb707138eee26c785
+SHA256: 282b350e4478a507d00ef9007173c77bf4271d75eb87183d90f1591aadc39b4f
+Description: X.Org X server -- AMD/ATI display driver wrapper
+Homepage: https://wiki.freedesktop.org/xorg/RadeonFeature/
+Description-md5: e44c47ee90083ed5cf59825a85aa1878
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-video-ati-dbg
+Priority: extra
+Section: x11
+Installed-Size: 38
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-video-ati
+Version: 1:7.7.0-1
+Depends: xserver-xorg-video-ati (= 1:7.7.0-1), xserver-xorg-video-radeon-dbg
+Suggests: xserver-xorg-video-mach64-dbg, xserver-xorg-video-r128-dbg
+Filename: pool/main/x/xserver-xorg-video-ati/xserver-xorg-video-ati-dbg_7.7.0-1_i386.deb
+Size: 11696
+MD5sum: 120deab472f8f24c3a6e7f2bb78035ac
+SHA1: cb134aa5f13b0b84bff93563aefe77c61c463eb0
+SHA256: 8613e9cedb5021d2f3fdccc99139322cf98beed1e1c7005c5e532b2fa9dd031f
+Description: X.Org X server -- AMD/ATI display driver wrapper (debugging symbols)
+Homepage: https://wiki.freedesktop.org/xorg/RadeonFeature/
+Build-Ids: 96fe3fa8593f7422be74707e48192f61661efab7
+Description-md5: 1a16c53e03875db1244d90cea8cf3664
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-ati-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-ati
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-ati-lts-utopic_10_i386.deb
+Size: 1956
+MD5sum: 1e6d8b697e86c113a3424844d043eea1
+SHA1: b1e2502e82769ba31532d53f9c59b1bfd54d9f62
+SHA256: 938b6b2264166c88a81ce77ec0525f1584e1571b12bf6a41781e81700493177d
+Description: Transitional package for xserver-xorg-video-ati-lts-utopic
+Description-md5: 23312e498ea96836e6372b63f74a29c1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-ati-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-ati-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-ati-lts-utopic-dbg_10_i386.deb
+Size: 1964
+MD5sum: dd3be44cd3660d52a1e898c7cb9e48af
+SHA1: ca91cbd3eb305bdb6696c6527cd5fc3af4c27dcb
+SHA256: a7f7e051687a5b82263d8665e623507955e9e4ed39227f657a21f12b9f5e782a
+Description: Transitional package for xserver-xorg-video-ati-lts-utopic-dbg
+Description-md5: af0003b345bf97b0aca1a9f710b53a17
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-ati-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-ati
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-ati-lts-vivid_10_i386.deb
+Size: 1954
+MD5sum: 6b88e13732a6277e4d6150df00cf8dd5
+SHA1: e49202ecb2195a592bd19446f5872510cc55e1ed
+SHA256: 2908bcda164eedad9cc2d7d4530e866d4535307aa5715e011c70e8a3449171b4
+Description: Transitional package for xserver-xorg-video-ati-lts-vivid
+Description-md5: b432c03b20792ba79b416abf6a998761
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-ati-lts-vivid-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-ati-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-ati-lts-vivid-dbg_10_i386.deb
+Size: 1954
+MD5sum: 67d9cf04dbfe06aa51556d994b79f451
+SHA1: cd2efd3a6d275e7180299e0e6323bc78cb4fb14c
+SHA256: 462d44202f09ea6baf83d1c068ffa0620a62909cdb1126c579d6ca90125e69d4
+Description: Transitional package for xserver-xorg-video-ati-lts-vivid-dbg
+Description-md5: af8e6c84991b6d6a217b684ce178e3af
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-ati-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-ati
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-ati-lts-wily_10_i386.deb
+Size: 1956
+MD5sum: 7698891ee8aef87f2db6e65be58bb322
+SHA1: 3fa6d87dab6ef19522f820b06f17c974dd011a44
+SHA256: 26f7f93947b1826fd4129e9948b89c050ca13bba30ebc17589caa88600d781b7
+Description: Transitional package for xserver-xorg-video-ati-lts-wily
+Description-md5: 0553d0e8311b595d6fa7f827450789ce
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-ati-lts-wily-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-ati-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-ati-lts-wily-dbg_10_i386.deb
+Size: 1962
+MD5sum: b5b892e300ee2d9ffd2823d9de6c5013
+SHA1: 881a30d21c5077addb82e93c4e2de8a073aa5558
+SHA256: e8d2a09910bd625858aa1dfdfa48ade48a0bc2d288457d29888248138f940257
+Description: Transitional package for xserver-xorg-video-ati-lts-wily-dbg
+Description-md5: 5712d544d6bf8bfb29b4e6da6e926048
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-dummy
+Priority: optional
+Section: x11
+Installed-Size: 32
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 1:0.3.7-1build5
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.4), xorg-video-abi-20, xserver-xorg-core (>= 2:1.17.99.902)
+Filename: pool/main/x/xserver-xorg-video-dummy/xserver-xorg-video-dummy_0.3.7-1build5_i386.deb
+Size: 8846
+MD5sum: 343d8238c778737101234d6eeace1768
+SHA1: 2091644913c6abf6c1524321483b7b9032d9e977
+SHA256: 1304f737fd75f15dd683ea27ff68cfce04afc5b375221b2f1f7cb88fe80513b9
+Description: X.Org X server -- dummy display driver
+Description-md5: b619b7eefcfd6515f1380f16941855cc
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-dummy-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-dummy
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-dummy-lts-utopic_10_i386.deb
+Size: 1958
+MD5sum: 187e5572aec824e8c264271e458f4e1e
+SHA1: 3474aa7228a1373e01ca824eccc868de61fb2116
+SHA256: e3623b5326d7f8b21c8d5434379182dab37043f6ed302607c41f4ed6a65872e5
+Description: Transitional package for xserver-xorg-video-dummy-lts-utopic
+Description-md5: 6a12c18de30ace2ff1654b64d924f90e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-dummy-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-dummy
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-dummy-lts-vivid_10_i386.deb
+Size: 1956
+MD5sum: cbc9a3185d6003addaf282db7db84409
+SHA1: 07ceb5bc8f76807b71ca893ecece4c9e5d743d21
+SHA256: acee8165acb35f24743918b580484a6baeaf20fd3709a08b020a1b29c1a218cd
+Description: Transitional package for xserver-xorg-video-dummy-lts-vivid
+Description-md5: 2a5566405a4e86f2722f42ff24bccac0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-dummy-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-dummy
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-dummy-lts-wily_10_i386.deb
+Size: 1956
+MD5sum: 49209b3b58fa5ddce61536d8c15694fc
+SHA1: c823a485d4b8ecc582b79ed22da9bd1db4e1ff2b
+SHA256: 9b9c1089f7f0021801030cb06508f7d58a2f63446e7d294005e2e7fb5f4a1621
+Description: Transitional package for xserver-xorg-video-dummy-lts-wily
+Description-md5: 75a8830ee23ba03398565ca2a0037805
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-fbdev
+Priority: optional
+Section: x11
+Installed-Size: 45
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 1:0.4.4-1build5
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.4), xorg-video-abi-20, xserver-xorg-core (>= 2:1.17.99.902)
+Filename: pool/main/x/xserver-xorg-video-fbdev/xserver-xorg-video-fbdev_0.4.4-1build5_i386.deb
+Size: 12218
+MD5sum: 7bcbe86f210913aefa9190c550f0aa0c
+SHA1: 64be5f57532342ba3985dfa67a89033d3874d131
+SHA256: 243bce25e8e46fda5d8b418d696d5540cb95add7bf5d5a9eec9c2d7be82d8053
+Description: X.Org X server -- fbdev display driver
+Description-md5: 64c436c9c202e79fa1c638b0252edf4c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-video-fbdev-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-fbdev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-fbdev-lts-utopic_10_i386.deb
+Size: 1964
+MD5sum: 0045e5df9a319fe763def34f38238ac7
+SHA1: 6d994b4fbcf683defe021f972f46c0182ce7a553
+SHA256: 1c862034d634a28bd67f8eb8d62f83dcb72fe9200e8a1deb17ecd4150334d89b
+Description: Transitional package for xserver-xorg-video-fbdev-lts-utopic
+Description-md5: 43af993ce2b15e9c3590447469b00964
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-fbdev-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-fbdev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-fbdev-lts-vivid_10_i386.deb
+Size: 1956
+MD5sum: 4162402b014eb9c2a3de07d33a4b4fd8
+SHA1: d56bddbe22c8f28c2c93fc5ac969e44feeb15c49
+SHA256: 5562ce0d902d8046e5d00c52f6bd110fa7c6b05ebff5f8da7f73d0297b23125a
+Description: Transitional package for xserver-xorg-video-fbdev-lts-vivid
+Description-md5: ac044a000c0bc6607f5d2056e6313f9e
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-fbdev-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-fbdev
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-fbdev-lts-wily_10_i386.deb
+Size: 1960
+MD5sum: 0f5573ef0236b1028b79389fec6aba29
+SHA1: 5e49237957bfa86f979d3d13b0db66c24322c9dc
+SHA256: a7dc4b8ce470315b3bd82b50cbbe8082eb4941964168a8d7acaa1bbda974c0bb
+Description: Transitional package for xserver-xorg-video-fbdev-lts-wily
+Description-md5: d81d50bb71a7f8902fc536714a7fed2c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-intel
+Priority: optional
+Section: x11
+Installed-Size: 3285
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 2:2.99.917+git20160325-1ubuntu1
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.17), libdrm-intel1 (>= 2.4.38), libdrm2 (>= 2.4.25), libpciaccess0 (>= 0.8.0+git20071002), libpixman-1-0 (>= 0.30.0), libudev1 (>= 183), libx11-6, libx11-xcb1, libxcb-dri2-0, libxcb-dri3-0, libxcb-sync1, libxcb-util1 (>= 0.4.0), libxcb1, libxcursor1 (>> 1.1.2), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxinerama1, libxrandr2 (>= 2:1.2.99.2), libxrender1, libxshmfence1, libxss1, libxtst6, libxv1, libxvmc1, xorg-video-abi-20, xserver-xorg-core (>= 2:1.17.99.902)
+Filename: pool/main/x/xserver-xorg-video-intel/xserver-xorg-video-intel_2.99.917+git20160325-1ubuntu1_i386.deb
+Size: 761118
+MD5sum: ca5c38ebb51524b7d2f019082004ff63
+SHA1: 527524e1afc0030955efc8b78f1e885ff336a63c
+SHA256: 90c67eeec9049ab7195476a2787a621289c45029004ac1005b648f0d1beed0ee
+Description: X.Org X server -- Intel i8xx, i9xx display driver
+Homepage: http://www.x.org/
+Description-md5: 8d201da69bb70e573edc27748d2cd8fd
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-video-intel-dbg
+Priority: extra
+Section: x11
+Installed-Size: 7862
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-video-intel
+Version: 2:2.99.917+git20160325-1ubuntu1
+Depends: xserver-xorg-video-intel (= 2:2.99.917+git20160325-1ubuntu1)
+Recommends: intel-gpu-tools
+Filename: pool/main/x/xserver-xorg-video-intel/xserver-xorg-video-intel-dbg_2.99.917+git20160325-1ubuntu1_i386.deb
+Size: 1875654
+MD5sum: a6e1b34384fa3c70a753006a90db88aa
+SHA1: 27d93a15940fe456ec4d1ab2c40ca5e734d9a11c
+SHA256: 17a230f9fbe92b001a783ef9230436f1bd59721eb2145243d7caae169ef49591
+Description: X.Org X server -- Intel i8xx, i9xx display driver (debug symbols)
+Homepage: http://www.x.org/
+Description-md5: 407ff36ec08d6f79ce154b88e799d94a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-intel-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-intel
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-intel-lts-utopic_10_i386.deb
+Size: 1956
+MD5sum: 3603efd696c4aee09542b49c6bc57082
+SHA1: 600f8b509ddbe74ddeec778462e3c0a2b3cb31dc
+SHA256: b1aca3f033c3837b19b980dadd498e89efdde09b8e8701c59f1eeceac5e3d19e
+Description: Transitional package for xserver-xorg-video-intel-lts-utopic
+Description-md5: 267619098486c9ca91e5956bec507d15
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-intel-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-intel-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-intel-lts-utopic-dbg_10_i386.deb
+Size: 1962
+MD5sum: 6aa7e49d76ec5ff2b821e3a9b73f8e14
+SHA1: 6033bfb4801db4db7e581f50f6cad7c9ef9a241d
+SHA256: 0fa90f9ea307955e10054c76f0329deff14d5cb7b362fbae1c7aa68b8d982df5
+Description: Transitional package for xserver-xorg-video-intel-lts-utopic-dbg
+Description-md5: f37869a809d652ef713192952911fbcb
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-intel-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-intel
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-intel-lts-vivid_10_i386.deb
+Size: 1954
+MD5sum: e24859cb161b80f4bd85450e3acee319
+SHA1: c69d9e94e565a8b8d04a02b6f07fc3f1dfd43530
+SHA256: bd10cd4fb73cb1a502b976ab71724f7789596a4cf8833476fe3c98367080978f
+Description: Transitional package for xserver-xorg-video-intel-lts-vivid
+Description-md5: a8b4e787b94dd50da645df65069a8902
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-intel-lts-vivid-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-intel-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-intel-lts-vivid-dbg_10_i386.deb
+Size: 1966
+MD5sum: 156314c0ad46d4d1f0d197dbdfde8829
+SHA1: 881ba6ccc43de5d6198023c08a883ad09fb975a3
+SHA256: 822dd631a10730f2697ca34fb23478ab5c1c90d1838638460aec86c2670603ca
+Description: Transitional package for xserver-xorg-video-intel-lts-vivid-dbg
+Description-md5: ddbef5fe60281fc4a4f194932013ce69
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-intel-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-intel
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-intel-lts-wily_10_i386.deb
+Size: 1958
+MD5sum: 3df5f0c5f3823b3d844fb77fe65d2293
+SHA1: c34bbb5bd27e77c9982c15aeacf94e66f5405a85
+SHA256: 2a86fce6b3886b9d2f866d6f63fa3837cfbd2c7760994e33aa442fbb2c579d2c
+Description: Transitional package for xserver-xorg-video-intel-lts-wily
+Description-md5: b9080ff2f7707d39c100fee494091e3a
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-intel-lts-wily-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-intel-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-intel-lts-wily-dbg_10_i386.deb
+Size: 1966
+MD5sum: ce2aab5b2e3c5dce64ea50eebf61e7d3
+SHA1: 16d8a707c6601a8a5881bd617d60311dbce97605
+SHA256: 55025880d3ade851b8d357f2748d10622655377367e0e14a4f052ad5dba80816
+Description: Transitional package for xserver-xorg-video-intel-lts-wily-dbg
+Description-md5: 412dcb2f01ad707cedd8153c60a1e784
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-modesetting-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-modesetting-lts-utopic_10_i386.deb
+Size: 1970
+MD5sum: a81898e0f10ea2f4eda84749ecbac36c
+SHA1: 420a19b4967917cd66f0d123ce33e73f19ea82bd
+SHA256: 3facf307f85de4887dbf7673637da3156037b8335cfa0831215ebc40c7cbec86
+Description: Transitional package for xserver-xorg-video-modesetting-lts-utopic
+Description-md5: d351590ed52682b2f991a7c8ed773d78
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-modesetting-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-core
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-modesetting-lts-utopic-dbg_10_i386.deb
+Size: 1976
+MD5sum: ae70611ef97f62345dcf11aad5428944
+SHA1: 2d5d0f9d9db5ca45e0105512e9e63f2d49b24990
+SHA256: b9f83bc9b38213131fbd3aa4e0ac66854174646e68376efff92e20fa71051cd9
+Description: Transitional package for xserver-xorg-video-modesetting-lts-utopic-dbg
+Description-md5: 3aafd651b17eca2c87ffc2d291513ae3
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-nouveau
+Priority: optional
+Section: x11
+Installed-Size: 272
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 1:1.0.12-1build2
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.15), libdrm-nouveau2 (>= 2.4.38), libdrm2 (>= 2.4.60), libudev1 (>= 183), xorg-video-abi-20, xserver-xorg-core (>= 2:1.17.99.902)
+Recommends: libgl1-mesa-dri (>= 9.0)
+Filename: pool/main/x/xserver-xorg-video-nouveau/xserver-xorg-video-nouveau_1.0.12-1build2_i386.deb
+Size: 89608
+MD5sum: bd238b7297ada409dd509c21d77169b5
+SHA1: 69ee4440883369ffcf20eb82f07429e5b2d69916
+SHA256: 285a95383bd9d5ffe998bdc33e8ecd77ea9c354650661a76a89066abf0d11602
+Description: X.Org X server -- Nouveau display driver
+Homepage: http://nouveau.freedesktop.org/wiki/
+Description-md5: b084a16945b86c1eda89ad33dbb4530d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-video-nouveau-dbg
+Priority: extra
+Section: debug
+Installed-Size: 731
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-video-nouveau
+Version: 1:1.0.12-1build2
+Depends: xserver-xorg-video-nouveau (= 1:1.0.12-1build2)
+Filename: pool/main/x/xserver-xorg-video-nouveau/xserver-xorg-video-nouveau-dbg_1.0.12-1build2_i386.deb
+Size: 670524
+MD5sum: 55326b8f05ab4eaf985e561a4e955ca4
+SHA1: 7920c36aed63390c2c6422b7c8ab5ad11d96d530
+SHA256: 5b0c7a747095a7be9f8b07e33abd8934b8844e5cefcaebdbd6782a8c402842f0
+Description: X.Org X server -- Nouveau display driver (debug symbols)
+Homepage: http://nouveau.freedesktop.org/wiki/
+Build-Ids: bb03253815b347da68929c28dfd5875a19214d39
+Description-md5: 5304f6a18155884f62e07d246a25ea57
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-nouveau-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-nouveau
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-nouveau-lts-utopic_10_i386.deb
+Size: 1962
+MD5sum: 66561c31f74452bd4e28a8543683ec5b
+SHA1: 853ed78cc41ee204a58e4bf32f5217a7b077dad1
+SHA256: de8630f4d569a687e278864349def3cc00d7a33df4cdb884cde9980576f57f1d
+Description: Transitional package for xserver-xorg-video-nouveau-lts-utopic
+Description-md5: deee2e3a7e55bc61eeabc6a0fde4a28c
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-nouveau-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-nouveau-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-nouveau-lts-utopic-dbg_10_i386.deb
+Size: 1964
+MD5sum: 21a6869cd5afb9de99985af82987c408
+SHA1: cabd1f0083d50059ebbab3f593475e87e4091034
+SHA256: 234dcd80ada620b126d7b960a5a0870e065f6870cee4e11c4905f27c4f1cebcb
+Description: Transitional package for xserver-xorg-video-nouveau-lts-utopic-dbg
+Description-md5: 1b33740e3f543628695f6be99cacfde7
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-nouveau-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-nouveau
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-nouveau-lts-vivid_10_i386.deb
+Size: 1958
+MD5sum: 580fe348ee6b7958cd9e31ca80a60238
+SHA1: 066c1899d0d79e95cd086c34b2c18be3201bccf3
+SHA256: 2b758a8e453ad1c8718960d64dfa99bb6e3bfd2d4eaa75c70223ba06a3bf5c47
+Description: Transitional package for xserver-xorg-video-nouveau-lts-vivid
+Description-md5: 138b4c8d34ba7d9a6bbc9713cdb719ae
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-nouveau-lts-vivid-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-nouveau-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-nouveau-lts-vivid-dbg_10_i386.deb
+Size: 1964
+MD5sum: dc85d45ae0379db9ddd04a9036730144
+SHA1: 8cfc98116224098eb0c8d214590ce3e3c9d2a6ce
+SHA256: 701d960d8bdf1274dab2614bf80d9bf19612ed1707118239b94cb38dbb0bc6cf
+Description: Transitional package for xserver-xorg-video-nouveau-lts-vivid-dbg
+Description-md5: 39cc0bee7bd632fc9e2da569189c657b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-nouveau-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-nouveau
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-nouveau-lts-wily_10_i386.deb
+Size: 1958
+MD5sum: c27af3170c5c2de747f26c19a41dddb6
+SHA1: daba73f67f13f5dbcdb2f1fdf2ddbd4c363f134f
+SHA256: ae2f51fbdc940fe4d49add9864b767c85558aa60db2afc885c3a66e0df1a72d1
+Description: Transitional package for xserver-xorg-video-nouveau-lts-wily
+Description-md5: 332b698c9b2b6db3b5ba0304d8caf592
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-nouveau-lts-wily-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-nouveau-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-nouveau-lts-wily-dbg_10_i386.deb
+Size: 1964
+MD5sum: f2d6fd66e1669dfe6a2a282bc4e9e11a
+SHA1: 914966b59e8f28b43578744419bf61a64fb56333
+SHA256: 474409327bd2d5b4bac31c9f37037c5022b5cc5077522a9522a845656b087fb2
+Description: Transitional package for xserver-xorg-video-nouveau-lts-wily-dbg
+Description-md5: 9503bdd58832f6b4a959ced3650b8dce
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-qxl
+Priority: optional
+Section: x11
+Installed-Size: 208
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Version: 0.1.4-3ubuntu3
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.4), libudev1 (>= 183), xorg-video-abi-20, xserver-xorg-core (>= 2:1.17.99.902)
+Filename: pool/main/x/xserver-xorg-video-qxl/xserver-xorg-video-qxl_0.1.4-3ubuntu3_i386.deb
+Size: 84188
+MD5sum: e3e22a75bfa4048227fda1d444e76d9a
+SHA1: ad0d239d18b81478bdeb120a6b101fe3d2c06e05
+SHA256: edeec8d34cfea9c55652c8837055b3849a3428c46478862f777ec379c31dbfb1
+Description: X.Org X server -- QXL display driver
+Homepage: http://spice-space.org/
+Description-md5: 26837ff18ae5ca3c32daf3167b2fa7f0
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-video-qxl-dbg
+Priority: extra
+Section: debug
+Installed-Size: 503
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-video-qxl
+Version: 0.1.4-3ubuntu3
+Depends: xserver-xorg-video-qxl (= 0.1.4-3ubuntu3)
+Filename: pool/main/x/xserver-xorg-video-qxl/xserver-xorg-video-qxl-dbg_0.1.4-3ubuntu3_i386.deb
+Size: 478628
+MD5sum: 215d4afafe73bd21de4f3d24cab397ca
+SHA1: d56e7c539c5e210cdea6ebcff2955833bf5ff1d0
+SHA256: 3f0c05a5d6dff26e382ab17d20c3b62f5f07dd9a1d9865588bfe07e2fec7d850
+Description: X.Org X server -- QXL display driver (debugging symbols)
+Homepage: http://spice-space.org/
+Build-Ids: f1afaffe4d2b76859dddc3d45684652a4c6a3cc9
+Description-md5: c84250fdbc852793f3d32fb23b74e2a1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-qxl-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-qxl
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-qxl-lts-utopic_10_i386.deb
+Size: 1956
+MD5sum: c7c347e1cc12191f6f0e3580bdd4f3d4
+SHA1: 9faaa7b42e1d903962a6ea9fd3fcf2a72ad8f415
+SHA256: b4d42cb18d920c934057e5497c599f47825cdca8ade8a00d8041d5cf1f6cbdc5
+Description: Transitional package for xserver-xorg-video-qxl-lts-utopic
+Description-md5: ab98763387f9e979a9b652ba1313000f
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-qxl-lts-utopic-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-qxl-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-qxl-lts-utopic-dbg_10_i386.deb
+Size: 1964
+MD5sum: 4d9c00e91ae80bad0f6884df01a29360
+SHA1: 03d7c97349b4edf97387b57aaed7ed9a04eb483b
+SHA256: a308fa6e500b7a4b6cf7c6aa660b73bd4fec6349c46a784ee036f5602994877c
+Description: Transitional package for xserver-xorg-video-qxl-lts-utopic-dbg
+Description-md5: 772d372f742cdf1034822f2dbb3e0c66
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-qxl-lts-vivid
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-qxl
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-qxl-lts-vivid_10_i386.deb
+Size: 1954
+MD5sum: c54c0f54e64d8ad51a84fcc147d359c4
+SHA1: 21af2d47df822ea6d15e4e1a6c52c7ddffc7ac22
+SHA256: 0a888f2798767d00846ce833ba85133b76cbd1967b45343fd637341987c681a0
+Description: Transitional package for xserver-xorg-video-qxl-lts-vivid
+Description-md5: 700b421c78425ec0c7f056e8fb62285d
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-qxl-lts-vivid-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-qxl-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-qxl-lts-vivid-dbg_10_i386.deb
+Size: 1956
+MD5sum: 1f0692790c3b60041193ae048b5ed086
+SHA1: 01c479db0cfcd74ff253ff1446ae3ca091fcf2d3
+SHA256: 45b2c730378d9b3eac672417e85d230ca5a4cd808d5bccc3327ef598ce7d6339
+Description: Transitional package for xserver-xorg-video-qxl-lts-vivid-dbg
+Description-md5: a0700a06b6c7be470b43ef42a6284b92
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-qxl-lts-wily
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-qxl
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-qxl-lts-wily_10_i386.deb
+Size: 1954
+MD5sum: 0b8815c82a0a99e4f78bdb1c6d5e23a0
+SHA1: 6141ef703d041d5f6015264fff85eafaeb21e75c
+SHA256: 8e3634873d0d5979e0d3d9e176f7a427c9032a475586111fbb5761fd153f2c0f
+Description: Transitional package for xserver-xorg-video-qxl-lts-wily
+Description-md5: 596b13ec3309b2cbb62baa5bb6d8aae9
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-qxl-lts-wily-dbg
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-qxl-dbg
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-qxl-lts-wily-dbg_10_i386.deb
+Size: 1964
+MD5sum: 8b9e0aced6ca383e99e10ded5d92230b
+SHA1: e1ca424e8883262c0e2128b369cd910064362e36
+SHA256: ca920648828a1fa5704c5ea54c9c4493b1b5f770db788a65f7d0fcd40b4d6ba2
+Description: Transitional package for xserver-xorg-video-qxl-lts-wily-dbg
+Description-md5: 5551e349396f3fb27a28e204a9d2508b
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-radeon
+Priority: optional
+Section: x11
+Installed-Size: 501
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-video-ati
+Version: 1:7.7.0-1
+Provides: xorg-driver-video
+Depends: libc6 (>= 2.17), libdrm-radeon1 (>= 2.4.39), libudev1 (>= 183), xorg-video-abi-20, xserver-xorg-core (>= 2:1.17.99.902)
+Suggests: firmware-amd-graphics
+Filename: pool/main/x/xserver-xorg-video-ati/xserver-xorg-video-radeon_7.7.0-1_i386.deb
+Size: 142188
+MD5sum: c344e331de0e051089ad113e5d0aea82
+SHA1: 0cd728adb71c2186c8ceeeb8a64ae5c7187a2168
+SHA256: feeace5c5fea1a313a2fd191bd05327b437a416560f45aa032e7e1e066168037
+Description: X.Org X server -- AMD/ATI Radeon display driver
+Homepage: https://wiki.freedesktop.org/xorg/RadeonFeature/
+Description-md5: f0dc7040ebe20189598467915db9b2e1
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 5y
+Task: ubuntu-desktop, ubuntu-usb, kubuntu-desktop, edubuntu-desktop, edubuntu-usb, xubuntu-core, xubuntu-desktop, mythbuntu-desktop, lubuntu-core, ubuntustudio-desktop-core, ubuntustudio-desktop, ubuntu-gnome-desktop, ubuntukylin-desktop, ubuntu-mate-core, ubuntu-mate-desktop, ubuntu-mate-cloudtop
+
+Package: xserver-xorg-video-radeon-dbg
+Priority: extra
+Section: x11
+Installed-Size: 1004
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: i386
+Source: xserver-xorg-video-ati
+Version: 1:7.7.0-1
+Depends: xserver-xorg-video-radeon (= 1:7.7.0-1)
+Filename: pool/main/x/xserver-xorg-video-ati/xserver-xorg-video-radeon-dbg_7.7.0-1_i386.deb
+Size: 959260
+MD5sum: 6a76d0b299c2e63804c50ce216afbb87
+SHA1: 099123972cfdceeb2a6f67580fabcded3c34d340
+SHA256: 0824aa45f99291ce7223793a9bb352708c9b8f70c1a3a06d66090bfde1e23db5
+Description: X.Org X server -- AMD/ATI Radeon display driver (debugging symbols)
+Homepage: https://wiki.freedesktop.org/xorg/RadeonFeature/
+Build-Ids: 24a527317aaf2d37a6b01d74370c94841328da74
+Description-md5: c7be5446365f77ecf178234fd656daf6
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Origin: Ubuntu
+Supported: 9m
+
+Package: xserver-xorg-video-radeon-lts-utopic
+Priority: extra
+Section: oldlibs
+Installed-Size: 8
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Architecture: i386
+Source: xorg-lts-transitional
+Version: 3:10
+Depends: xserver-xorg-video-radeon
+Filename: pool/main/x/xorg-lts-transitional/xserver-xorg-video-
